@@ -1,0 +1,167 @@
+* { margin:0; padding:0:; box-sizing:border-box;
+}
+header {
+  background-color: #F5F5F5;
+}
+header img {
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+#login {
+  float: right;
+  position: relative;
+  top: 30px;
+  right: 15px;
+}
+#register {
+  float: right;
+  position: relative;
+  top: 30px;
+  right: 15px;
+
+}
+body {
+  background-color: red;
+  font-size: 18;
+}
+nav {
+
+  font-family: Arial, sans-serif;
+}
+footer nav {
+  margin-right:0;
+}
+nav a {
+  color: #0431B4;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 25px;
+}
+
+article {
+  width: 100%;
+  padding: 1em;
+  font-size: 18px
+}
+article img {
+  display:block;
+
+  float:left;
+  padding:0 1em;
+}
+article>div {
+  width:62%;
+  float:left;
+  padding:0 1em;
+
+}
+h1, h2, h3, a {
+  color: #0431B4;
+}
+h1 {
+  float:left;
+  margin:.5em;
+  font-size: 2em;
+  color: #0431B4;
+}
+h2 {
+  padding:0 1.5em;
+}
+h3 {
+  font-size:2em;
+}
+section>div {
+  max-width: 75em;
+  margin: .5em auto;
+  padding:4em 0;
+}
+article.featured {
+  width:50%;
+  float:left;
+  padding:1em;
+}
+article.featured>h2 {
+  position: relative;
+  right: .8em;
+  margin-bottom: 10px;
+}
+article.featured>div {
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+ul li {
+  text-indent: -2.25em;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+section a {
+  color:#F5F5F5;
+  display:block;
+  padding:.5em 0;
+}
+.featured img, .featured div {
+  float:none;
+}
+#bio {
+  background-color:#64b5f6;
+}
+#updates {
+  background-color:#64b5f6;
+}
+#third {
+  background-color:#64b5f6;
+}
+.headline {
+  width: 150px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
+#contact input,
+#location input,
+#pet input{
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#contact label
+#location label
+#pet label {
+  font-size: 24px;
+  margin-left: 10px;
+}
+input#submit {
+  width: 100px;
+}
+#location,
+#pet,
+#contact h2 {
+  position: relative;
+  right: 38px;
+
+}
+#location,
+#pet,
+#contact {
+  display: block;
+  position: relative;
+  float: left;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.clearfix:after, article:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
